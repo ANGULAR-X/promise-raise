@@ -13,6 +13,10 @@ import 'rxjs/add/operator/mergeMap';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
+import 'frozenui/lib/zepto.min.js';
+import 'frozenui/js/frozen.js';
+
+import 'frozenui/css/frozen.css';
 
 
 
