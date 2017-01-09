@@ -1,20 +1,30 @@
-import { Routes }               from '@angular/router';
-import { HelloWorldComponent}   from "./pages/raise-home/hello-world.component";
-import {PersonalComponent} from "./pages/raise-personal/raise-personal.component";
+import { NgModule }                         from '@angular/core';
+import { FormsModule }                      from '@angular/forms';
+import { HttpModule  }                      from '@angular/http';
+import { RouterModule, PreloadAllModules }  from "@angular/router";
+import { BrowserModule }                    from '@angular/platform-browser';
 
+import { AppComponent }                     from "./app.component";
 
-export const ROUTES: Routes = [
-  {
-    path: 'home',
-    component: HelloWorldComponent
-  },
-  {
-    path:'personal',
-    component:PersonalComponent
-  },
-  {
-    path : '',
-    redirectTo : 'home',
-    pathMatch : 'full'
-  }
-];
+import { ROUTES } from "./app.routes";
+import { HelloWorldComponent } from "./pages/raise-home/hello-world.component";
+import { PersonalComponent } from "./pages/raise-personal/raise-personal.component";
+
+@NgModule({
+  bootstrap: [AppComponent],
+  declarations: [
+    AppComponent,
+    HelloWorldComponent,
+    PersonalComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules })
+  ],
+  providers: []
+})
+export class MainModule {
+
+}

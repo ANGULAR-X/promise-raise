@@ -1,119 +1,104 @@
-html,body{
-background-color: #fff;
-}
-.header{
-background-color: #1b1c20;
-position: relative;
-text-align: center;
-}
-.header i{
-color: #fff;
-line-height: 44px;
-}
-.header .backIcon{
-position: absolute;
-left: 10px;
-}
-.header .backIcon i{
-font-size: 32px;
-margin-right: 2px;
-}
-.header .moreIcon{
-font-size: 20px;
-position: absolute;
-right: 10px;
-}
-.header h1{
-margin: auto;
-}
-.add-newBtn{
-background-color: #45c618;
-color: #fff;
-text-align: center;
-background-image: none;
-}
-.add-newBtn i{
-font-size: 18px;
-margin-right: 5px;
-vertical-align: middle;
-font-style: normal;
--webkit-font-smoothing: antialiased;
--webkit-text-stroke-width: .2px;
-}
-.ui-container {
-border-top: 40px solid transparent;
-background: #fff;
-}
-.divBox .ui-list .divItem{
-padding-bottom: 30px;
-}
-.divBox .ui-list:last-child{
-padding-bottom: 60px;
-}
-.divBox .showUserImg{
-width: 40px;
-height: 40px;
-border-radius: 50%;
-vertical-align: top;
-display: inline-block;
-}
-.ui-avatar {
-width: 40px;
-height: 40px;
--webkit-border-radius: 50%;
-overflow: hidden;
-}
-.divBox .divList .title{
-color: #505050;
-padding-right: 100px;
-font-size: 20px;
-margin-top: 2px;
-}
-.divBox .divList .title span{
-color: #505050;
-/*font-weight: bold;*/
-}
-.divBox .divList .title .seeMore{
-color: #45c618;
-position: absolute;
-right: 15px;
-font-size: 14px;
-}
-.divBox .divList .showText{
-color: #505050;
-font-size: 14px;
-margin-top: 20px;
-}
-.divBox  .ImgList{
-padding:0;
-margin-top: 20px;
-}
-.divBox  li{
-padding-bottom: 0;
-}
-.divBox  li div .testImg{
-height: auto;
-position: relative;
-float: left;
-}
-.divBox  li  .imgBox{
-padding:0;
-position: relative;
-overflow: hidden;
-}
-.divBox  li .videoBox .backColor{
-background-color: rgba(0,0,0,0.3);
-display: inline-block;
-position: absolute;
-left: 0;
-top:0;
-z-index: 2;
-}
-.divBox  li .videoBox .backColor .backColorImg{
-background: url("../../../assets/image/active.png") center no-repeat;
-background-size: 50% 50%;
-display: inline-block;
-width: 100%;
-height:100%;
-z-index: 3;
-}
+<header class="ui-header ui-header-positive ui-border-b header">
+    <span class="backIcon"><i class="fa fa-angle-left fl" onclick="history.back()"></i>返回</span><h1 class="dib">互助计划</h1><i class="fa fa-ellipsis-h fr moreIcon"></i>
+</header>
+<section class="ui-container">
+    <div class="demo-block divBox">
+        <ul class="ui-list ui-border-tb">
+            <li class="ui-border-t divItem">
+                <div class="ui-avatar">
+                    <img class="showUserImg" src="../../../assets/image/userImg.png">
+                </div>
+                <div class="ui-list-info divList">
+                    <h4 class="ui-nowrap title">
+                        <span>十年还款</span><span>－</span><span>刘一手</span>
+                        <a href="javascript:;" class="seeMore">查看案例</a>
+                    </h4>
+                    <p class=" showText">2016年12月21日：还款5000元，前500位捐款用户将收到筹款人的还款。</p>
+                    <ul class="ui-grid-trisect ui-border-b ImgList">
+                        <li>
+                            <div class="ui-grid-trisect-img videoBox imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                                <span class="backColor"><span class="backColorImg"></span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui-grid-trisect-img imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui-grid-trisect-img imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="ui-border-t divItem">
+                <div class="ui-avatar">
+                    <img class="showUserImg" src="../../../assets/image/userImg.png">
+                </div>
+                <div class="ui-list-info divList">
+                    <h4 class="ui-nowrap title">
+                        <span>十年还款</span><span>－</span><span>刘一手</span>
+                        <a href="javascript:;" class="seeMore">查看案例</a>
+                    </h4>
+                    <p class=" showText">2016年12月21日：还款5000元，前500位捐款用户将收到筹款人的还款。</p>
+                    <ul class="ui-grid-trisect ui-border-b ImgList">
+                        <li>
+                            <div class="ui-grid-trisect-img videoBox imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                                <span class="backColor"><span class="backColorImg"></span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui-grid-trisect-img imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui-grid-trisect-img imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="ui-border-t divItem">
+                <div class="ui-avatar">
+                    <img class="showUserImg" src="../../../assets/image/userImg.png">
+                </div>
+                <div class="ui-list-info divList">
+                    <h4 class="ui-nowrap title">
+                        <span>十年还款</span><span>－</span><span>刘一手</span>
+                        <a href="javascript:;" class="seeMore">查看案例</a>
+                    </h4>
+                    <p class=" showText">2016年12月21日：还款5000元，前500位捐款用户将收到筹款人的还款。</p>
+                    <ul class="ui-grid-trisect ui-border-b ImgList">
+                        <li>
+                            <div class="ui-grid-trisect-img videoBox imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                                <span class="backColor"><span class="backColorImg"></span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui-grid-trisect-img imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ui-grid-trisect-img imgBox">
+                                <img src="../../../assets/image/testImg1.png" class="testImg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<footer class="ui-footer ui-footer-btn add-newBtn">
+    <ul class="ui-tiled ui-border-t">
+        <li  class="ui-border-r"><div><i class="fa fa-plus"></i><span>添加新的履诺情况</span></div></li>
+    </ul>
+</footer>
