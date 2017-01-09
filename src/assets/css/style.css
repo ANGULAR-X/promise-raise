@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,html,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{width:100%;  overflow-x: hidden; font:10px/150% 'SimSun', 'Helvetica Neue', Tahoma, Arial, "Hiragino Sans GB", 'Microsoft YaHei', SimSun, sans-serif }
+body{ overflow-x: hidden; color:#666;}
+/*font-family:"FZYHJW Medium","Lantinghei SC", "Helvetica Neue","Microsoft YaHei","WenQuanYi Micro Hei", "Heiti SC", "Segoe UI", Arial, sans-serif;*/
+ul,ol{list-style: none;}
+img{border: 0; border:none; display: inline-block;height: auto; width:auto;}
+input,select,textarea{outline:0;}
+textarea{resize:none;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;  outline: none;}
+a:focus{  outline: none;  }
+a:active {star:expression(this.onFocus=this.blur());}
+/*a:link,a:visited,a:hover,a:active{text-decoration:none;} */
+/*==========================Reset_End===========================*/
+
+.fl{ float: left;}
+.fr{float: right;}
+.fn{float: none;}
+.dib{display: inline-block;}
+.diblock{display: block;}

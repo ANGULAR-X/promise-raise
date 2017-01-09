@@ -1,0 +1,121 @@
+html,body{
+    background-color: #fff;
+}
+.header{
+    background-color: #1b1c20;
+    position: relative;
+    text-align: center;
+}
+.header i{
+    color: #fff;
+    line-height: 44px;
+}
+.header .backIcon{
+    position: absolute;
+    left: 10px;
+}
+.header .backIcon i{
+    font-size: 32px;
+    margin-right: 2px;
+}
+.header .moreIcon{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+}
+.header h1{
+    margin: auto;
+}
+.add-newBtn{
+    background-color: #45c618;
+    color: #fff;
+    text-align: center;
+    background-image: none;
+}
+.add-newBtn i{
+    font-size: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+}
+.ui-container {
+    border-top: 40px solid transparent;
+    background: #fff;
+}
+.divBox .ui-list .divItem{
+    padding-bottom: 30px;
+}
+.divBox .showUserImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: top;
+    display: inline-block;
+}
+.ui-avatar {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+}
+.divBox .divList .title{
+    color: #505050;
+    padding-right: 100px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.divBox .divList .title span{
+    color: #505050;
+    /*font-weight: bold;*/
+}
+.divBox .divList .title .seeMore{
+    color: #45c618;
+    position: absolute;
+    right: 15px;
+    font-size: 14px;
+}
+.divBox .divList .showText{
+    color: #505050;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.divBox .divList .showText2{
+    color: #505050;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.divBox  .ImgList{
+    padding:0;
+    margin-top: 20px;
+}
+.divBox  li{
+    padding-bottom: 0;
+}
+.divBox  li div .testImg{
+    height: auto;
+    position: relative;
+    float: left;
+}
+.divBox  li  .imgBox{
+    padding:0;
+    position: relative;
+    overflow: hidden;
+}
+.divBox  li .videoBox .backColor{
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 2;
+}
+.divBox  li .videoBox .backColor .backColorImg{
+    background: url("../../../assets/image/active.png") center no-repeat;
+    background-size: 50% 50%;
+    display: inline-block;
+    width: 100%;
+    height:100%;
+    z-index: 3;
+}
